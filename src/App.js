@@ -1,25 +1,62 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Navbar from './components/Navbar';
+import MainContainer from './components/MainContainer';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <MainContainer/>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <p>lorem ipsum dolor sit amet, consectetur adip</p>
     </div>
   );
+}
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-70px";
+  }
 }
 
 export default App;
