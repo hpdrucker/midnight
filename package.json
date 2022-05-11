@@ -1,7 +1,7 @@
 {
   "name": "midnight",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -16,7 +16,19 @@
     "web-vitals": "^2.1.4",
     "webpack": "^5.71.0"
   },
-  "homepage": ".",
+  "author": {
+    "name": "Nicolas Amberg",
+    "url": "https://hpdrucker.github.io/midnight/"
+  },
+  "homepage": "http://hpdrucker.github.io/midnight/",
+  "private": false,
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
