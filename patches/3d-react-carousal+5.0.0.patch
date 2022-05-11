@@ -1,0 +1,34 @@
+diff --git a/node_modules/3d-react-carousal/src/styles/style.scss b/node_modules/3d-react-carousal/src/styles/style.scss
+index 7e72da0..86c4ef5 100644
+--- a/node_modules/3d-react-carousal/src/styles/style.scss
++++ b/node_modules/3d-react-carousal/src/styles/style.scss
+@@ -130,10 +130,10 @@ $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
+         color: #ffffff;
+         transform: translateY(-50%);
+         padding: 10px 10px;
+-        border-top: 2px solid #fdc84b;
+-        border-right: 2px solid #fdc84b;
+-        border-bottom: 2px solid #fdc84b;
+-        border-left: 2px solid #fdc84b;
++        border-top: 2px solid #000000;
++        border-right: 2px solid #000000;
++        border-bottom: 2px solid #000000;
++        border-left: 2px solid #000000;
+       }
+     }
+     .slider-right {
+@@ -152,10 +152,10 @@ $mode: cubic-bezier(0.17, 0.67, 0.55, 1.43);
+         color: #ffffff;
+         transform: translateY(-50%);
+         padding: 10px 10px;
+-        border-top: 2px solid #fdc84b;
+-        border-right: 2px solid #fdc84b;
+-        border-bottom: 2px solid #fdc84b;
+-        border-left: 2px solid #fdc84b;
++        border-top: 2px solid #000000;
++        border-right: 2px solid #000000;
++        border-bottom: 2px solid #000000;
++        border-left: 2px solid #000000;
+       }
+       margin-left: -2px;
+     }

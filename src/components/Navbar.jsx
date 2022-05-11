@@ -4,9 +4,9 @@ import '../App.css';
 const Navbar = () => {
   return (
     <div id="navbar">
-      <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+      <a href="#main-container">Home</a>
+      <a href="#cc">Gallery</a>
+      <a href="#video">Video</a>
     </div>
   )
 }

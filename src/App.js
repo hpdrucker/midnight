@@ -2,6 +2,8 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import MainContainer from './components/MainContainer';
+import Carousal from './components/Carousal';
+import VideoComponent from './components/VideoComponent';
 
 
 function App() {
@@ -9,42 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <MainContainer/>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
-      <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      <Carousal/>
+      <VideoComponent />
     </div>
   );
 }

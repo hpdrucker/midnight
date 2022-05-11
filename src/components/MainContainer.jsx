@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import Midnight from './Midnight';
-import video from '../Videos/video.mp4'
+import video from '../Videos/motionBG.mp4'
 
 const MainContainer = () => {
     return (
