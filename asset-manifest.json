@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/midnight/static/css/main.ca82f493.css",
-    "main.js": "/midnight/static/js/main.97b929e5.js",
+    "main.css": "/midnight/static/css/main.32e776dc.css",
+    "main.js": "/midnight/static/js/main.63043ee4.js",
     "static/js/787.3ed8a76a.chunk.js": "/midnight/static/js/787.3ed8a76a.chunk.js",
     "static/media/sky5.jpg": "/midnight/static/media/sky5.4a2820af620cbeaa4870.jpg",
     "static/media/motionBG.mp4": "/midnight/static/media/motionBG.91fb09364af39c6a9b7d.mp4",
@@ -24,13 +24,14 @@
     "static/media/tokyo2.jpg": "/midnight/static/media/tokyo2.d251d1cea67d2fce1ca5.jpg",
     "static/media/sky2.jpg": "/midnight/static/media/sky2.82e67c10ff7069325ee1.jpg",
     "static/media/sky1.jpg": "/midnight/static/media/sky1.41a894b371336844e7b6.jpg",
+    "static/media/sakuya.gif": "/midnight/static/media/sakuya.8bf0d732aff7f7c4ca35.gif",
     "index.html": "/midnight/index.html",
-    "main.ca82f493.css.map": "/midnight/static/css/main.ca82f493.css.map",
-    "main.97b929e5.js.map": "/midnight/static/js/main.97b929e5.js.map",
+    "main.32e776dc.css.map": "/midnight/static/css/main.32e776dc.css.map",
+    "main.63043ee4.js.map": "/midnight/static/js/main.63043ee4.js.map",
     "787.3ed8a76a.chunk.js.map": "/midnight/static/js/787.3ed8a76a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca82f493.css",
-    "static/js/main.97b929e5.js"
+    "static/css/main.32e776dc.css",
+    "static/js/main.63043ee4.js"
   ]
 }
