@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import MainContainer from './components/MainContainer';
 import Carousal from './components/Carousal';
 import VideoComponent from './components/VideoComponent';
+import FooterComponent from './components/FooterComponent';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MainContainer/>
       <Carousal/>
       <VideoComponent />
+      <FooterComponent />
     </div>
   );
 }

@@ -6,6 +6,7 @@ html{
 body{
   height:100%; /* force the BODY element to match the height of the HTML element */
   overflow: overlay;
+  overflow-x: hidden;
 }
 
 #navbar {
@@ -175,4 +176,15 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 7.5%;
+}
+
+.sakuya {
+  position: relative;
+  animation: run 8s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes run {
+  from {left: -10%;}
+  to {left: 110%;}
 }
